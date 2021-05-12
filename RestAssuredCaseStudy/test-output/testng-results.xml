@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15182" started-at="2021-05-12T11:00:10Z" finished-at="2021-05-12T11:00:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15182" started-at="2021-05-12T11:00:10Z" finished-at="2021-05-12T11:00:26Z">
+      <class name="test.TestAPI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestAPI@68c4039c]" name="setup" is-config="true" duration-ms="9938" started-at="2021-05-12T16:30:10Z" finished-at="2021-05-12T16:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.TestAPI@68c4039c]" name="Login" duration-ms="2745" started-at="2021-05-12T16:30:20Z" finished-at="2021-05-12T16:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getUser()[pri:1, instance:test.TestAPI@68c4039c]" name="getUser" duration-ms="832" started-at="2021-05-12T16:30:23Z" finished-at="2021-05-12T16:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="getCustomersBetween()[pri:2, instance:test.TestAPI@68c4039c]" name="getCustomersBetween" duration-ms="900" started-at="2021-05-12T16:30:24Z" finished-at="2021-05-12T16:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomersBetween -->
+        <test-method status="PASS" signature="logout()[pri:3, instance:test.TestAPI@68c4039c]" name="logout" duration-ms="698" started-at="2021-05-12T16:30:25Z" finished-at="2021-05-12T16:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- test.TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
